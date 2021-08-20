@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\WorkDiractory\Kicad\EVD\Connector\Connector.sch</source>
+    <date>20.08.2021 11:59:15</date>
+    <tool>Eeschema (5.1.10)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Входной разъем</title>
+        <company/>
+        <rev>Rev A</rev>
+        <date>2021-08-20</date>
+        <source>Connector.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value="Шевырев Н.С."/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>776163-1</value>
+      <footprint>TE_776163-1</footprint>
+      <fields>
+        <field name="Comment">776163-1</field>
+        <field name="EU_RoHS_Compliance">Compliant</field>
+      </fields>
+      <libsource lib="776163-1" part="776163-1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EEA6B9</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61169F41</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6116A47D</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6116D486</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6116D48C</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_02x05_Top_Bottom</value>
+      <footprint>MyLibrary:Molex_Micro-Fit_3.0_43045-1000_2x05_P3.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Top_Bottom" description="Generic connector, double row, 02x05, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611EC57F</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_02x04_Top_Bottom</value>
+      <footprint>MyLibrary:Molex_Micro-Fit_3.0_43045-0800_2x04_P3.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x04_Top_Bottom" description="Generic connector, double row, 02x04, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611ED88C</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_02x04_Top_Bottom</value>
+      <footprint>MyLibrary:Molex_Micro-Fit_3.0_43045-0800_2x04_P3.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x04_Top_Bottom" description="Generic connector, double row, 02x04, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611EFAA4</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_02x05_Top_Bottom</value>
+      <footprint>MyLibrary:Molex_Micro-Fit_3.0_43045-1000_2x05_P3.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Top_Bottom" description="Generic connector, double row, 02x05, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611EFE6E</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="776163-1" part="776163-1">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">776163-1</field>
+        <field name="Footprint">TE_776163-1</field>
+        <field name="EU_RoHS_Compliance">Compliant</field>
+        <field name="Comment">776163-1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+        <pin num="18" name="18" type="passive"/>
+        <pin num="19" name="19" type="passive"/>
+        <pin num="20" name="20" type="passive"/>
+        <pin num="21" name="21" type="passive"/>
+        <pin num="22" name="22" type="passive"/>
+        <pin num="23" name="23" type="passive"/>
+        <pin num="24" name="24" type="passive"/>
+        <pin num="25" name="25" type="passive"/>
+        <pin num="26" name="26" type="passive"/>
+        <pin num="27" name="27" type="passive"/>
+        <pin num="28" name="28" type="passive"/>
+        <pin num="29" name="29" type="passive"/>
+        <pin num="30" name="30" type="passive"/>
+        <pin num="31" name="31" type="passive"/>
+        <pin num="32" name="32" type="passive"/>
+        <pin num="33" name="33" type="passive"/>
+        <pin num="34" name="34" type="passive"/>
+        <pin num="35" name="35" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x04_Top_Bottom">
+      <description>Generic connector, double row, 02x04, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x04_Top_Bottom</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x05_Top_Bottom">
+      <description>Generic connector, double row, 02x05, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Top_Bottom</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="776163-1">
+      <uri>C:/WorkDiractory/Kicad/KicadMyLib/776163-1/776163-1.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/ReverseLight">
+      <node ref="J1" pin="14"/>
+      <node ref="J2" pin="9"/>
+    </net>
+    <net code="2" name="/ShuntContactorOn">
+      <node ref="J1" pin="13"/>
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="3" name="/Pump">
+      <node ref="J1" pin="15"/>
+      <node ref="J2" pin="10"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="J2" pin="7"/>
+      <node ref="J2" pin="6"/>
+      <node ref="J1" pin="26"/>
+      <node ref="J1" pin="27"/>
+    </net>
+    <net code="5" name="VDD">
+      <node ref="J1" pin="25"/>
+      <node ref="J1" pin="24"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="6" name="+5VD">
+      <node ref="J5" pin="3"/>
+      <node ref="J1" pin="11"/>
+    </net>
+    <net code="7" name="GNDA">
+      <node ref="J4" pin="5"/>
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="8" name="/Brake_2">
+      <node ref="J1" pin="19"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="9" name="/Brake_1">
+      <node ref="J1" pin="20"/>
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="10" name="/Accelerator_2">
+      <node ref="J1" pin="30"/>
+      <node ref="J4" pin="6"/>
+    </net>
+    <net code="11" name="/Accelerator_1">
+      <node ref="J4" pin="7"/>
+      <node ref="J1" pin="31"/>
+    </net>
+    <net code="12" name="GNDD">
+      <node ref="J1" pin="12"/>
+      <node ref="J5" pin="8"/>
+      <node ref="J5" pin="7"/>
+    </net>
+    <net code="13" name="+5VA">
+      <node ref="J1" pin="7"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="14" name="/HALL_3">
+      <node ref="J5" pin="1"/>
+      <node ref="J1" pin="21"/>
+    </net>
+    <net code="15" name="/HALL_2">
+      <node ref="J5" pin="6"/>
+      <node ref="J1" pin="22"/>
+    </net>
+    <net code="16" name="/HALL_1">
+      <node ref="J1" pin="23"/>
+      <node ref="J5" pin="2"/>
+    </net>
+    <net code="17" name="/NTC_FW_2">
+      <node ref="J1" pin="34"/>
+      <node ref="J5" pin="4"/>
+    </net>
+    <net code="18" name="/NTC_FW_1">
+      <node ref="J5" pin="9"/>
+      <node ref="J1" pin="35"/>
+    </net>
+    <net code="19" name="/NTC_AW_2">
+      <node ref="J5" pin="5"/>
+      <node ref="J1" pin="32"/>
+    </net>
+    <net code="20" name="/NTC_AW_1">
+      <node ref="J5" pin="10"/>
+      <node ref="J1" pin="33"/>
+    </net>
+    <net code="21" name="/IgnitionOn">
+      <node ref="J3" pin="6"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="22" name="/GearParking">
+      <node ref="J3" pin="3"/>
+      <node ref="J1" pin="18"/>
+    </net>
+    <net code="23" name="/GearReverse">
+      <node ref="J3" pin="2"/>
+      <node ref="J1" pin="17"/>
+    </net>
+    <net code="24" name="/RightSupport">
+      <node ref="J3" pin="7"/>
+      <node ref="J1" pin="28"/>
+    </net>
+    <net code="25" name="/LeftSupport">
+      <node ref="J1" pin="29"/>
+      <node ref="J3" pin="8"/>
+    </net>
+    <net code="26" name="/GearDrive">
+      <node ref="J3" pin="1"/>
+      <node ref="J1" pin="16"/>
+    </net>
+    <net code="27" name="/HighVoltageOn">
+      <node ref="J1" pin="4"/>
+      <node ref="J3" pin="5"/>
+    </net>
+    <net code="28" name="/EmergencyStop">
+      <node ref="J1" pin="6"/>
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="29" name="/CAN_H">
+      <node ref="J1" pin="9"/>
+      <node ref="J4" pin="8"/>
+    </net>
+    <net code="30" name="/CAN_L">
+      <node ref="J1" pin="10"/>
+      <node ref="J4" pin="4"/>
+    </net>
+    <net code="31" name="/PowerSteeringPWM">
+      <node ref="J1" pin="1"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="32" name="/ParkingBrake">
+      <node ref="J1" pin="2"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="33" name="/PowerContactorOn">
+      <node ref="J1" pin="3"/>
+      <node ref="J2" pin="5"/>
+    </net>
+  </nets>
+</export>

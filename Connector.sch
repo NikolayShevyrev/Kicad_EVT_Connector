@@ -4,12 +4,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "Входной разъем"
+Date "2021-08-20"
+Rev "Rev A"
 Comp ""
 Comment1 ""
-Comment2 ""
+Comment2 "Шевырев Н.С."
 Comment3 ""
 Comment4 ""
 $EndDescr
