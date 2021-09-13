@@ -98,10 +98,6 @@ Text Label 4600 3100 0    50   ~ 0
 HighVoltageOn
 Text Label 2200 2600 0    50   ~ 0
 EmergencyStop
-Text Label 4600 2150 0    50   ~ 0
-ReverseLight
-Text Label 4600 2250 0    50   ~ 0
-ShuntContactorOn
 Text Label 4600 4300 0    50   ~ 0
 Accelerator_1
 Text Label 4600 4200 0    50   ~ 0
@@ -110,8 +106,6 @@ Text Label 3900 4300 2    50   ~ 0
 Brake_1
 Text Label 3900 4200 2    50   ~ 0
 Brake_2
-Text Label 4600 2050 0    50   ~ 0
-Pump
 $Comp
 L power:+5VA #PWR0107
 U 1 1 610A6A89
@@ -305,12 +299,6 @@ Wire Wire Line
 Connection ~ 4550 5250
 Wire Wire Line
 	4550 5250 4600 5250
-Text Label 3900 2250 2    50   ~ 0
-PowerSteeringPWM
-Text Label 3900 2050 2    50   ~ 0
-PowerContactorOn
-Text Label 3900 2150 2    50   ~ 0
-ParkingBrake
 Text Label 2200 2100 0    50   ~ 0
 PowerSteeringPWM
 Text Label 2200 2300 0    50   ~ 0
@@ -521,4 +509,16 @@ Wire Wire Line
 	2100 5400 2200 5400
 Wire Wire Line
 	2100 5500 2200 5500
+Text Label 4600 2050 0    50   ~ 0
+Pump
+Text Label 4600 2250 0    50   ~ 0
+ShuntContactorOn
+Text Label 4600 2150 0    50   ~ 0
+ReverseLight
+Text Label 3900 2150 2    50   ~ 0
+ParkingBrake
+Text Label 3900 2050 2    50   ~ 0
+PowerContactorOn
+Text Label 3900 2250 2    50   ~ 0
+PowerSteeringPWM
 $EndSCHEMATC
