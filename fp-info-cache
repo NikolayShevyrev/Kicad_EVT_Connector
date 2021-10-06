@@ -1,4 +1,4 @@
-19339607671131794
+19342874104947840
 776163-1
 TE_776163-1
 
@@ -58870,6 +58870,13 @@ C Rect series
 2
 2
 MyLibrary
+CONV_TMA_1505S
+
+
+0
+4
+4
+MyLibrary
 Converter_DCDC_traco_TME
 Isolated 1W single output DC/DC, http://power.murata.com/data/power/ncl/kdc_cre1.pdf
 Isolated 1W single output DC/DC
@@ -58904,6 +58911,13 @@ DS1070-9
 0
 9
 9
+MyLibrary
+EVT_Logo
+
+
+0
+0
+0
 MyLibrary
 Ecio_Logo
 
