@@ -1,4 +1,4 @@
-update=20.08.2021 11:55:11
+update=20.12.2021 11:40:07
 version=1
 last_client=kicad
 [general]
@@ -244,11 +244,11 @@ dPairGap=0.25
 dPairViaGap=0.25
 [schematic_editor]
 version=1
-PageLayoutDescrFile=
+PageLayoutDescrFile=gost_portrait.kicad_wks
 PlotDirectoryName=Manufacturing/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
 SpiceAjustPassiveValues=0
-LabSize=50
+LabSize=67
 ERC_TestSimilarLabels=1

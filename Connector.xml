@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\WorkDiractory\Kicad\EVD\Connector\Connector.sch</source>
-    <date>20.08.2021 11:59:15</date>
+    <date>24.11.2021 15:35:23</date>
     <tool>Eeschema (5.1.10)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -211,61 +211,61 @@
   </libraries>
   <nets>
     <net code="1" name="/ReverseLight">
-      <node ref="J1" pin="14"/>
       <node ref="J2" pin="9"/>
+      <node ref="J1" pin="14"/>
     </net>
     <net code="2" name="/ShuntContactorOn">
-      <node ref="J1" pin="13"/>
       <node ref="J2" pin="8"/>
+      <node ref="J1" pin="13"/>
     </net>
     <net code="3" name="/Pump">
-      <node ref="J1" pin="15"/>
       <node ref="J2" pin="10"/>
+      <node ref="J1" pin="15"/>
     </net>
     <net code="4" name="GND">
-      <node ref="J2" pin="7"/>
-      <node ref="J2" pin="6"/>
-      <node ref="J1" pin="26"/>
       <node ref="J1" pin="27"/>
+      <node ref="J2" pin="6"/>
+      <node ref="J2" pin="7"/>
+      <node ref="J1" pin="26"/>
     </net>
     <net code="5" name="VDD">
-      <node ref="J1" pin="25"/>
       <node ref="J1" pin="24"/>
-      <node ref="J2" pin="2"/>
       <node ref="J2" pin="1"/>
+      <node ref="J1" pin="25"/>
+      <node ref="J2" pin="2"/>
     </net>
-    <net code="6" name="+5VD">
-      <node ref="J5" pin="3"/>
-      <node ref="J1" pin="11"/>
+    <net code="6" name="/ParkingBrake">
+      <node ref="J2" pin="4"/>
+      <node ref="J1" pin="2"/>
     </net>
-    <net code="7" name="GNDA">
-      <node ref="J4" pin="5"/>
-      <node ref="J1" pin="8"/>
+    <net code="7" name="/PowerSteeringPWM">
+      <node ref="J2" pin="3"/>
+      <node ref="J1" pin="1"/>
     </net>
-    <net code="8" name="/Brake_2">
-      <node ref="J1" pin="19"/>
-      <node ref="J4" pin="2"/>
+    <net code="8" name="/PowerContactorOn">
+      <node ref="J2" pin="5"/>
+      <node ref="J1" pin="3"/>
     </net>
-    <net code="9" name="/Brake_1">
-      <node ref="J1" pin="20"/>
-      <node ref="J4" pin="3"/>
+    <net code="9" name="/HALL_1">
+      <node ref="J1" pin="23"/>
+      <node ref="J5" pin="2"/>
     </net>
-    <net code="10" name="/Accelerator_2">
-      <node ref="J1" pin="30"/>
-      <node ref="J4" pin="6"/>
-    </net>
-    <net code="11" name="/Accelerator_1">
+    <net code="10" name="/Accelerator_1">
       <node ref="J4" pin="7"/>
       <node ref="J1" pin="31"/>
     </net>
+    <net code="11" name="/Accelerator_2">
+      <node ref="J1" pin="30"/>
+      <node ref="J4" pin="6"/>
+    </net>
     <net code="12" name="GNDD">
       <node ref="J1" pin="12"/>
-      <node ref="J5" pin="8"/>
       <node ref="J5" pin="7"/>
+      <node ref="J5" pin="8"/>
     </net>
-    <net code="13" name="+5VA">
-      <node ref="J1" pin="7"/>
-      <node ref="J4" pin="1"/>
+    <net code="13" name="+5VD">
+      <node ref="J1" pin="11"/>
+      <node ref="J5" pin="3"/>
     </net>
     <net code="14" name="/HALL_3">
       <node ref="J5" pin="1"/>
@@ -275,77 +275,77 @@
       <node ref="J5" pin="6"/>
       <node ref="J1" pin="22"/>
     </net>
-    <net code="16" name="/HALL_1">
-      <node ref="J1" pin="23"/>
-      <node ref="J5" pin="2"/>
-    </net>
-    <net code="17" name="/NTC_FW_2">
-      <node ref="J1" pin="34"/>
+    <net code="16" name="/NTC_FW_2">
       <node ref="J5" pin="4"/>
+      <node ref="J1" pin="34"/>
     </net>
-    <net code="18" name="/NTC_FW_1">
-      <node ref="J5" pin="9"/>
+    <net code="17" name="/NTC_FW_1">
       <node ref="J1" pin="35"/>
+      <node ref="J5" pin="9"/>
     </net>
-    <net code="19" name="/NTC_AW_2">
+    <net code="18" name="/NTC_AW_2">
       <node ref="J5" pin="5"/>
       <node ref="J1" pin="32"/>
     </net>
-    <net code="20" name="/NTC_AW_1">
+    <net code="19" name="/NTC_AW_1">
       <node ref="J5" pin="10"/>
       <node ref="J1" pin="33"/>
     </net>
-    <net code="21" name="/IgnitionOn">
-      <node ref="J3" pin="6"/>
-      <node ref="J1" pin="5"/>
-    </net>
-    <net code="22" name="/GearParking">
-      <node ref="J3" pin="3"/>
-      <node ref="J1" pin="18"/>
-    </net>
-    <net code="23" name="/GearReverse">
-      <node ref="J3" pin="2"/>
-      <node ref="J1" pin="17"/>
-    </net>
-    <net code="24" name="/RightSupport">
-      <node ref="J3" pin="7"/>
-      <node ref="J1" pin="28"/>
-    </net>
-    <net code="25" name="/LeftSupport">
-      <node ref="J1" pin="29"/>
-      <node ref="J3" pin="8"/>
-    </net>
-    <net code="26" name="/GearDrive">
-      <node ref="J3" pin="1"/>
-      <node ref="J1" pin="16"/>
-    </net>
-    <net code="27" name="/HighVoltageOn">
-      <node ref="J1" pin="4"/>
-      <node ref="J3" pin="5"/>
-    </net>
-    <net code="28" name="/EmergencyStop">
-      <node ref="J1" pin="6"/>
-      <node ref="J3" pin="4"/>
-    </net>
-    <net code="29" name="/CAN_H">
+    <net code="20" name="/CAN_H">
       <node ref="J1" pin="9"/>
       <node ref="J4" pin="8"/>
     </net>
-    <net code="30" name="/CAN_L">
-      <node ref="J1" pin="10"/>
+    <net code="21" name="/RightSupport">
+      <node ref="J1" pin="28"/>
+      <node ref="J3" pin="7"/>
+    </net>
+    <net code="22" name="/LeftSupport">
+      <node ref="J1" pin="29"/>
+      <node ref="J3" pin="8"/>
+    </net>
+    <net code="23" name="/IgnitionOn">
+      <node ref="J3" pin="6"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="24" name="/HighVoltageOn">
+      <node ref="J1" pin="4"/>
+      <node ref="J3" pin="5"/>
+    </net>
+    <net code="25" name="/EmergencyStop">
+      <node ref="J3" pin="4"/>
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="26" name="/CAN_L">
       <node ref="J4" pin="4"/>
+      <node ref="J1" pin="10"/>
     </net>
-    <net code="31" name="/PowerSteeringPWM">
-      <node ref="J1" pin="1"/>
-      <node ref="J2" pin="3"/>
+    <net code="27" name="+5VA">
+      <node ref="J4" pin="1"/>
+      <node ref="J1" pin="7"/>
     </net>
-    <net code="32" name="/ParkingBrake">
-      <node ref="J1" pin="2"/>
-      <node ref="J2" pin="4"/>
+    <net code="28" name="GNDA">
+      <node ref="J4" pin="5"/>
+      <node ref="J1" pin="8"/>
     </net>
-    <net code="33" name="/PowerContactorOn">
-      <node ref="J1" pin="3"/>
-      <node ref="J2" pin="5"/>
+    <net code="29" name="/Brake_2">
+      <node ref="J1" pin="19"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="30" name="/Brake_1">
+      <node ref="J1" pin="20"/>
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="31" name="/GearDrive">
+      <node ref="J1" pin="16"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="32" name="/GearReverse">
+      <node ref="J1" pin="17"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="33" name="/GearParking">
+      <node ref="J3" pin="3"/>
+      <node ref="J1" pin="18"/>
     </net>
   </nets>
 </export>
