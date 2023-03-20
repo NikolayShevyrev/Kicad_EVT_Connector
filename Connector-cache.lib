@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# 776163-1_776163-1
+# Connector-rescue_776163-1-776163-1
 #
-DEF 776163-1_776163-1 J 0 40 Y Y 1 L N
+DEF Connector-rescue_776163-1-776163-1 J 0 40 Y Y 1 L N
 F0 "J" -210 1823 50 H V L BNN
-F1 "776163-1_776163-1" -200 -2001 50 H V L BNN
+F1 "Connector-rescue_776163-1-776163-1" -200 -2001 50 H V L BNN
 F2 "TE_776163-1" 0 0 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
 F4 "Compliant" 0 0 50 H I L BNN "EU_RoHS_Compliance"

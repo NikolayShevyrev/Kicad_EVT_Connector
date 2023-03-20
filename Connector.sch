@@ -14,7 +14,7 @@ Comment3 "Сизякин"
 Comment4 "Попель"
 $EndDescr
 $Comp
-L 776163-1:776163-1 J1
+L Connector-rescue:776163-1-776163-1 J1
 U 1 1 60EEA6B9
 P 2700 3850
 F 0 "J1" H 2807 5817 50  0000 C CNN

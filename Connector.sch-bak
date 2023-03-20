@@ -426,13 +426,13 @@ Wire Wire Line
 	3100 5450 3200 5450
 Wire Wire Line
 	3100 5550 3200 5550
-Text Label 3200 5550 0    50   ~ 0
-NTC_FW_1
-Text Label 3200 5450 0    50   ~ 0
-NTC_FW_2
 Text Label 3200 5350 0    50   ~ 0
-NTC_AW_1
+NTC_FW_1
 Text Label 3200 5250 0    50   ~ 0
+NTC_FW_2
+Text Label 3200 5550 0    50   ~ 0
+NTC_AW_1
+Text Label 3200 5450 0    50   ~ 0
 NTC_AW_2
 NoConn ~ 3100 3050
 Text Label 5600 5300 0    50   ~ 0
